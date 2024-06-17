@@ -1,7 +1,7 @@
 # NeoVim config
 
 ## What is included
-- cappuccin
+- catppuccin
 - lualine
 - neo-tree
 - telescope + telescope-ui-select
@@ -14,7 +14,8 @@
 ## How to
 1. Clone the repository 
 2. Place its content (for MacOS) to `.config/nvim` directory
-3. Restart the `nvim`.
+3. Using `:Manson` install necessary packages: `stylua`, `prettier` and `eslint_d`.
+4. Restart the `nvim`.
 
 ## Languages
 
