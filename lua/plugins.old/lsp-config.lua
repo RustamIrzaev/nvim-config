@@ -1,25 +1,12 @@
 return {
 	{
-		"williamboman/mason.nvim",
-		config = function()
-			require("mason").setup()
-		end,
-	},
-	{
-		"williamboman/mason-lspconfig.nvim",
-		config = function()
-			require("mason-lspconfig").setup({
-				ensure_installed = { "lua_ls", "csharp_ls", "rust_analyzer", "tsserver" },
-			})
-		end,
-	},
-	{
 		"neovim/nvim-lspconfig",
 		config = function()
 			local capabilities = require("cmp_nvim_lsp").default_capabilities()
 			local lspconfig = require("lspconfig")
 			local roslyn = require("roslyn")
 
+            -- https://github.com/SteffenBlake/pixxel-nvim/blob/a749b7aca67008e076f87021268ebed30a47aff4/lua/lsp-config/init.lua#L87
 			roslyn.setup({
 				dotnet_cmd = "dotnet",
 				roslyn_version = "4.8.0-3.23475.7",
