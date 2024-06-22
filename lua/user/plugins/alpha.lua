@@ -5,7 +5,7 @@ local alpha = {
 
 function alpha.config()
   local dashboard = require("alpha.themes.startify")
-  local icons = require("user.helpers.icons")
+  -- local icons = require("user.helpers.icons")
 
   dashboard.section.header.val = {
     [[╔─────────────────────────────────╗]],

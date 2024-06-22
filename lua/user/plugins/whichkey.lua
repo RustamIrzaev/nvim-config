@@ -59,7 +59,7 @@ function whichkey.config()
     },
     T = { name = "Treesitter" },
   }, {
-    mode = "n", -- NORMAL mode
+    mode = "n",
     prefix = "<leader>",
   })
 end

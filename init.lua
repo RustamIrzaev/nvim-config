@@ -9,6 +9,13 @@ local PLUGINS = {
   "lspconfig",
   "whichkey",
   "alpha",
+  "cmp",
+  "none-ls",
+  "telescope",
+  "nvimtree",
+  "lualine",
+  "navic",
+  "harpoon",
 }
 
 require(FOLDER .. ".launch")
